@@ -76,7 +76,19 @@ ul{
 .btn:hover{
     opacity: 0.9;
 }
- .secondDiv{
+
+.secondDiv{
+    background: blue;
+    align-items: center;
+    height: 60px;
+    text-align: center;
+    color: white;
+}
+
+.thirdDiv{
     display: flex;
-    gap: 5%;
+}
+
+.fourthDiv{
+    gap: 10%;
  }
