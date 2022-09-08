@@ -1,10 +1,10 @@
- *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fff;
     color: #000;
@@ -48,47 +48,15 @@ ul{
     padding: 0 10px;
 }
 
-.main-nav ul li a{
-    border-bottom: 2px;
-}
-
-.main-nav ul li a:hover{
-    border-bottom: 2px solid black;
-}
-
-.main-nav ul.main-menu{
-    flex: 1;
-    margin-left: 20px;
-}
-
-/*header*/
-.btn{
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: #fff;
-    color: black;
-    font-size: 15px;
-    font-weight: bolder;
-    display: inline-block;
-    border: 0;
-}
-
-.btn:hover{
-    opacity: 0.9;
-}
-
-.secondDiv{
-    background: blue;
+#site {
+    background: rgba(0, 0, 255, 0.877);
     align-items: center;
-    height: 60px;
+    justify-content: center;
+    height: 50px;
+    box-sizing: content-box;
     text-align: center;
+}
+
+a {
     color: white;
 }
-
-.thirdDiv{
-    display: flex;
-}
-
-.fourthDiv{
-    gap: 10%;
- }
