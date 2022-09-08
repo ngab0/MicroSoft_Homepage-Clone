@@ -1,1 +1,3 @@
-# MicroSoft_Homepage-Clone
+# This is my first attempt with Front End
+I tried to clone the homepage of Microsoft
+Tools used: HTML and CSS
