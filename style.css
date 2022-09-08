@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -60,3 +60,23 @@ ul{
     flex: 1;
     margin-left: 20px;
 }
+
+/*header*/
+.btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    display: inline-block;
+    border: 0;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+ .secondDiv{
+    display: flex;
+    gap: 5%;
+ }
